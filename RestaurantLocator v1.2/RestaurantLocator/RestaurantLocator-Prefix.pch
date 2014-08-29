@@ -1,0 +1,54 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "AFNetworking.h"
+    #import "Category1.h"
+    #import "Photo.h"
+    #import "Version.h"
+    #import "Restaurant.h"
+    #import "MGListCell.h"
+    #import "MGListView.h"
+    #import "MGMapView.h"
+    #import "MGRawView.h"
+    #import "MGParser.h"
+    #import "MBProgressHUD.h"
+    #import "Restaurant.h"
+    #import "DataParser.h"
+    #import "Config.h"
+    #import "UIConfig.h"
+    #import "MGHelper.h"
+    #import "Favorite.h"
+
+    #import "CoreDataController.h"
+    #import "MGUIImageExtras.h"
+    #import "MGUtilities.h"
+    #import "RateView.h"
+    #import "UIPickerActionSheet.h"
+    #import "MGGalleryView.h"
+    #import "AFImageRequestOperation.h"
+    #import "UIImageView+AFNetworking.h"
+    #import "MGSlider.h"
+    #import "MGNestedTab.h"
+    #import "MGUIAppearance.h"
+    #import "MGImageViewer.h"
+    #import <MessageUI/MessageUI.h>
+    #import "NSStringExtras.h"
+    #import "MGMapRoute.h"
+    #import "TBXML.h"
+    #import "NSString+XMLEntities.h"
+
+#endif
